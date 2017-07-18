@@ -1,0 +1,186 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 2200px;
+}
+body {  
+  display: flex;
+  flex-direction: column;
+  background-color: black;
+  font-family: Helvetica;
+  font-size: 22px;
+  color: seashell; 
+  opacity: 0.9;    
+}
+
+.header {
+  display: flex;   
+  position: fixed;  
+  height: 69px;
+  width: 100%;
+  border-bottom: 1px solid seashell;  
+  background-color: black;          
+}
+.logo {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  width: 140px;        
+}
+.logo img{  
+  height: auto;
+  width: 135px;
+  margin: 0 auto;  
+}
+.navig {
+  display: flex;  
+  justify-content: flex-end;   
+  width: 400px; 
+  margin-left: 3%;
+  margin-right: 0.5%;
+  flex-basis: 380px;
+  flex-shrink: 3;
+  flex-grow: 3;
+}
+.navig a {   
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  font-size: 22px;
+  font-family: Helvetica;
+  padding: 10px;
+  color: seashell;  
+  height: auto;
+  
+}
+
+/*  Main */
+.main { 
+  display: flex;
+  flex-direction: column;  
+  align-items: center;
+  height: 100%;
+  width: 100%;   
+  color: seashell;
+  font-family: Helvetica;
+  font-size: 22px;
+  flex-flow: scroll;  
+}
+
+#Mission {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height:700px;
+  width: 1200px;   
+  padding-top: 70px ;
+  background-image: url("F:Coding/projects/teacozy/images/img-mission-background.jpg");  
+}
+.title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;  
+  height: 100px;
+  width: 100%;
+  background-color: black;
+  color: white;
+  text-align: center
+ }
+/*  Featured Tea   */			
+.Featured_Tea {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-between;
+  align-items: center; 
+  height: 650px;
+  width: 1000px; 
+  padding-top: 50px;  
+}
+ h2,  h4{
+  display: flex; 
+  justify-content: center;
+  align-items: center; 
+  margin: 7px auto;  
+}
+.photo{
+  display: inline-flex;
+  justify-content:flex-around;
+  align-items: center; 
+  flex-wrap: wrap; 
+  height: 260px;
+  width: 310px;  
+  padding-left: 15px; 
+}
+.photo h4 {  
+  margin: 10px auto;  
+}
+
+#Locations {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 600px;
+  width: 1200px;
+  background-image: url("F:Coding/projects/teacozy/images/img-locations-background.jpg");  
+  margin-top: 20px;   
+  opacity: 1;   
+}
+#Locations h2 {   
+  margin: 1px auto;
+}
+.3_box {
+  padding-top: 50px;
+  display: flex;  
+  width: 100%;     
+} 
+.box {
+  display: inline-flex;
+  align-items: center;
+  flex-direction: column;
+  height: 240px;
+  width: 290px;  
+  background-color: black;
+  margin: 14px 20px 10px 20px; 
+  padding: 10px;
+  opacity: 1;    
+}
+.box h3 { 
+  margin: 17px auto;  
+}
+.box h4 {  
+  margin: 15px auto;  
+}
+   /* FOOTER */
+.footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center; 
+  align-items: center;    
+  height: 230px;
+  width: 100%;  
+  padding-top: 15px;
+}
+.contact {
+  display: flex;
+  flex-direction: column;
+  justify-content: center; 
+  align-items: center;  
+}
+.footer h2 {
+  margin-top:17px;
+  margin-bottom: 25px;
+}
+.footer h5 {
+  margin-top: 20px;
+  margin-bottom: 7px;
+}
+.copyright {
+  display: flex;
+  justify-content: flex-start;   
+  align-items: flex-start;
+  width: 100%;
+  margin-left: 20px;
+}
+
